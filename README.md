@@ -66,8 +66,12 @@ npm install
 4. Создайте файл `.env` в директории server со следующими переменными:
 ```env
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/dagestan-landmarks
-JWT_SECRET=your_jwt_secret
+DB_NAME=database
+DB_USER=postgres
+DB_PASSWORD=<введите свой пароль>
+DB_HOST=localhost
+DB_PORT=5432
+SECRET_KEY=<введите свой секретный ключ>
 ```
 
 ### Запуск
